@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
     line-height: 1;
+    font-family: 'Open Sans', sans-serif;
 }
 
 ol, ul {
@@ -52,7 +53,7 @@ table {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Quantico', sans-serif;
 }
 
 h1 {
@@ -94,4 +95,22 @@ h4 {
 
 p {
     font-size: 20px;
+}
+
+.location {
+    background-color: #233237;
+    color: #f2f2f2;
+}
+
+.club {
+    background-color: #074980;
+    color: #f2f2f2;
+}
+
+footer {
+    background-color: #1c292e;
+    color: #f2f2f2;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
