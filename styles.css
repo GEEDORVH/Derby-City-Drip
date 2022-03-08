@@ -102,9 +102,11 @@ p {
     color: #f2f2f2;
 }
 
-.club {
-    background-color: #074980;
+.containerClub {
+    background-color: #033a35;
     color: #f2f2f2;
+    padding: 24px;
+    text-align: center;
 }
 
 footer {
@@ -113,4 +115,48 @@ footer {
     text-align: center;
     padding-bottom: 30px;
     padding-top: 30px;
+}
+
+.order {
+    background-color: #2e1507;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.experience {
+    color: #45230f;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.join {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: #a6592f;
+}
+
+.container {
+    text-align: center;
+
+}
+
+.socials {
+    height: 100px;
+    width: 100px;
 }
