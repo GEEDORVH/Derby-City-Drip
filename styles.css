@@ -76,9 +76,13 @@ h4 {
     padding: 24px;
 }
 
-.hamburger {}
+.hamburger {
+    color: #1c292e;
+}
 
-.nav-wrapper {}
+.nav-wrapper {
+    color: #1c292e;
+}
 
 .hero {
     background-image: url('images/coffee-hero-bg.jpg');
@@ -107,6 +111,7 @@ p {
     color: #f2f2f2;
     padding: 24px;
     text-align: center;
+
 }
 
 footer {
@@ -159,4 +164,25 @@ a {
 .socials {
     height: 100px;
     width: 100px;
+}
+
+.map {
+    width: 400px;
+    height: 350px;
+}
+
+.coffee-wrapper {
+
+}
+
+.menu-item {
+
+}
+
+.news-wrapper {
+
+}
+
+.coffee-roasted {
+    
 }
