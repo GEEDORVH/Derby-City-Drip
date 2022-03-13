@@ -76,13 +76,18 @@ h4 {
     padding: 24px;
 }
 
-.hamburger {}
+.hamburger {
+    color: #1c292e;
+}
 
-.nav-wrapper {}
+.nav-wrapper {
+    color: #1c292e;
+}
 
 .hero {
     background-image: url('images/coffee-hero-bg.jpg');
     padding-top: 48px;
+    
 }
 
 .intro {
@@ -95,6 +100,7 @@ h4 {
 
 p {
     font-size: 20px;
+    font-weight: normal;
 }
 
 .location {
@@ -107,6 +113,7 @@ p {
     color: #f2f2f2;
     padding: 24px;
     text-align: center;
+
 }
 
 footer {
@@ -128,6 +135,7 @@ footer {
     font-size: 16px;
     border-radius: 15px;
     margin-top: 20px;
+    cursor: pointer
 }
 
 .experience {
@@ -149,14 +157,25 @@ a {
     font-size: 16px;
     border-radius: 15px;
     background-color: #a6592f;
+    cursor: pointer;
+    margin-top: 20px;
 }
 
 .container {
     text-align: center;
-
+    
 }
 
 .socials {
     height: 100px;
     width: 100px;
+}
+
+.map {
+    width: 400px;
+    height: 350px;
+}
+
+.location {
+    
 }

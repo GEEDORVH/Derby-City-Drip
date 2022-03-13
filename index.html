@@ -16,7 +16,7 @@
             <div class="nav-wrapper"></div>
             <img src="images/derbycitydrip-logo.png" alt="derby city drip" class="logo">
             <button class="hamburger"></button>
-        </div>
+            </div>
     </nav>
 
     <header class="hero">
@@ -26,7 +26,7 @@
                 accusantium
                 repudiandae nemo dolore. Corporis error nemo minima, enim, ullam, et magni reprehenderit cumque nulla
                 aperiam esse officia!</p>
-            <button class="order">ORDER ONLINE</button>
+            <button class="order" onclick="myFunction()">ORDER ONLINE</button>
         </div>
     </header>
 
@@ -47,7 +47,7 @@
             <p>LOUISVILLE, KY 40213</p>
             <p>P: 502-555-5555</p>
             <p>E: hello@derbycitydrip.com</p>
-            <img src="images/map.PNG" alt="google map">
+            <img src="images/map.PNG" alt="google map" class="map">
             <h2>HOURS</h2>
             <p>These are our current hours,<br>
                 unforeseen circumstances may cause these to change.</p>
@@ -131,7 +131,7 @@
             <input type="name" id="name" name="name">
             <label for="email">Email:</label>
             <input type="email" id="email" name="email">
-            <button type="button" class="join">JOIN NOW</button>
+            <button class="join" onclick="myFunction()">JOIN NOW</button>
         </div>
     </section>
 
@@ -158,9 +158,14 @@
             <a href="#"><img src="images/facebook.svg" alt="facebook logo" class="socials"></a>
         </div>
     </section>
+    <script>
+        function myFunction() {
+          alert("Thanks for looking!");
+        }
+        </script>
     <footer>
         <div>
-            <p>&copy; COPYRIGHT 2021 DERBY CITY DRIP, LLC.</p>
+            <p>&copy; COPYRIGHT 2022 DERBY CITY DRIP, LLC.</p>
             <p>PRIVACY POLICY</p>
         </div>
     </footer>
