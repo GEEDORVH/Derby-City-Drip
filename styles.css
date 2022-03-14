@@ -92,6 +92,10 @@ h4 {
 
 .intro {
     background-image: url('images/coffee-beans-bg.jpg');
+    margin-top: -300px;
+    z-index: 100;
+    position: relative;
+    padding: 4rem 0;
 }
 
 .white {
@@ -108,6 +112,7 @@ p {
     color: #f2f2f2;
 }
 
+<<<<<<< HEAD
 .containerClub {
     background-color: #033a35;
     color: #f2f2f2;
@@ -116,6 +121,8 @@ p {
 
 }
 
+=======
+>>>>>>> 7b4308cf0a10eab3f8c5236aa35c72a6b6393835
 footer {
     background-color: #1c292e;
     color: #f2f2f2;
@@ -135,7 +142,12 @@ footer {
     font-size: 16px;
     border-radius: 15px;
     margin-top: 20px;
+<<<<<<< HEAD
     cursor: pointer
+=======
+    cursor: pointer;
+    font-family: 'Quantico', sans-serif;
+>>>>>>> 7b4308cf0a10eab3f8c5236aa35c72a6b6393835
 }
 
 .experience {
@@ -154,16 +166,23 @@ a {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 24px;
     border-radius: 15px;
     background-color: #a6592f;
     cursor: pointer;
+<<<<<<< HEAD
     margin-top: 20px;
 }
 
 .container {
     text-align: center;
     
+=======
+    font-family: 'Quantico', sans-serif;
+    width: 70%;
+    text-transform: uppercase;
+    margin: 0 auto;
+>>>>>>> 7b4308cf0a10eab3f8c5236aa35c72a6b6393835
 }
 
 .socials {
@@ -176,6 +195,95 @@ a {
     height: 350px;
 }
 
+<<<<<<< HEAD
 .location {
     
 }
+=======
+.coffee-wrapper {}
+
+.menu-item {
+    padding-bottom: 64px;
+}
+
+.news-wrapper {
+    background-color: #033a35;
+    color: #f2f2f2;
+    padding: 24px;
+
+}
+
+.coffee-roasted {}
+
+.menu-price {
+    display: inline;
+    font-weight: bold;
+    font-family: 'Quantico', sans-serif;
+}
+
+.menu-title {
+    display: inline;
+
+}
+
+.menu-title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 16px;
+}
+
+.menu-description {
+    padding-bottom: 6rem;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.menu-section-title {
+    text-align: center;
+    padding-top: 6rem;
+}
+
+.locations-wrapper {
+    background-color: #233237;
+    color: white;
+}
+
+#name {
+    border-radius: 5px;
+    width: 100%;
+    height: 36px;
+    margin-bottom: 2rem;
+    
+}
+
+#email {
+    border-radius: 5px;
+    width: 100%;
+    height: 36px;
+    margin-bottom: 2rem;
+}
+
+.newsletter-form {
+    width: 100%;
+}
+
+.submit-wrap {
+    text-align: center;
+}
+
+input[type=text] , input[type=email] {
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-size: 18px;
+    
+}
+
+label {
+    display: block;
+    
+}
+
+.hero-img {
+   background-repeat: no-repeat; 
+}
+>>>>>>> 7b4308cf0a10eab3f8c5236aa35c72a6b6393835

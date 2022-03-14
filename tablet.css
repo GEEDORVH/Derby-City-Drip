@@ -1,9 +1,19 @@
+<<<<<<< HEAD
 @media only screen and (min-width: 625px) {
 
     nav {
         background-image: url('images/coffee-hero-bg.jpg');
         
     }
+=======
+@media only screen and (min-width: 650px) {
+
+nav {
+    background-image: url('images/coffee-hero-bg.jpg');
+}
+
+
+>>>>>>> 7b4308cf0a10eab3f8c5236aa35c72a6b6393835
 
 
 
