@@ -76,10 +76,6 @@ h4 {
     padding: 24px;
 }
 
-.hamburger {
-    color: #1c292e;
-}
-
 .nav-wrapper {
     color: #1c292e;
 }
@@ -87,7 +83,6 @@ h4 {
 .hero {
     background-image: url('images/coffee-hero-bg.jpg');
     padding-top: 48px;
-    
 }
 
 .intro {
@@ -104,7 +99,6 @@ h4 {
 
 p {
     font-size: 20px;
-    font-weight: normal;
 }
 
 .location {
@@ -112,17 +106,6 @@ p {
     color: #f2f2f2;
 }
 
-<<<<<<< HEAD
-.containerClub {
-    background-color: #033a35;
-    color: #f2f2f2;
-    padding: 24px;
-    text-align: center;
-
-}
-
-=======
->>>>>>> 7b4308cf0a10eab3f8c5236aa35c72a6b6393835
 footer {
     background-color: #1c292e;
     color: #f2f2f2;
@@ -142,16 +125,14 @@ footer {
     font-size: 16px;
     border-radius: 15px;
     margin-top: 20px;
-<<<<<<< HEAD
-    cursor: pointer
-=======
     cursor: pointer;
     font-family: 'Quantico', sans-serif;
->>>>>>> 7b4308cf0a10eab3f8c5236aa35c72a6b6393835
+
 }
 
 .experience {
     color: #45230f;
+    padding-left: 20px;
 }
 
 a {
@@ -170,19 +151,10 @@ a {
     border-radius: 15px;
     background-color: #a6592f;
     cursor: pointer;
-<<<<<<< HEAD
-    margin-top: 20px;
-}
-
-.container {
-    text-align: center;
-    
-=======
     font-family: 'Quantico', sans-serif;
     width: 70%;
     text-transform: uppercase;
     margin: 0 auto;
->>>>>>> 7b4308cf0a10eab3f8c5236aa35c72a6b6393835
 }
 
 .socials {
@@ -193,17 +165,21 @@ a {
 .map {
     width: 400px;
     height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-<<<<<<< HEAD
-.location {
-    
+.coffee-wrapper {
+    padding: 2rem;
 }
-=======
-.coffee-wrapper {}
 
 .menu-item {
     padding-bottom: 64px;
+}
+
+.menu-items2 {
+    display: none;
 }
 
 .news-wrapper {
@@ -213,7 +189,10 @@ a {
 
 }
 
-.coffee-roasted {}
+.coffee-roasted {
+    text-align: center;
+
+}
 
 .menu-price {
     display: inline;
@@ -246,6 +225,7 @@ a {
 .locations-wrapper {
     background-color: #233237;
     color: white;
+    padding-top: 75px;
 }
 
 #name {
@@ -253,7 +233,7 @@ a {
     width: 100%;
     height: 36px;
     margin-bottom: 2rem;
-    
+
 }
 
 #email {
@@ -271,19 +251,307 @@ a {
     text-align: center;
 }
 
-input[type=text] , input[type=email] {
+input[type=text], input[type=email] {
     text-transform: uppercase;
     padding-left: 10px;
     font-size: 18px;
-    
+
 }
 
 label {
     display: block;
-    
+
 }
 
 .hero-img {
-   background-repeat: no-repeat; 
+    background-repeat: no-repeat;
 }
->>>>>>> 7b4308cf0a10eab3f8c5236aa35c72a6b6393835
+
+.coffee-club {
+    text-align: center;
+    padding-top: 65px;
+}
+
+.address {
+    margin-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.address-phone {
+    margin-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 75px;
+}
+
+.sitemap-links {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+    padding-top: 25px;
+
+}
+
+.location-hours {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.map-location {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.map-number {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 75px;
+}
+
+.social-heading {
+    padding-bottom: 25px;
+}
+
+.map-location-heading {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.experience-heading {
+    padding-bottom: 25px;
+}
+
+.coffee-roasted-heading {
+    padding-bottom: 50px;
+}
+
+.location-hours-header {
+    text-align: center;
+    padding-top: 50px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#ham {
+    color: #a77a33;
+}
+
+.h1 h1 {
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    font-size: 5em;
+    color: #633200;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    width: 25%;
+    height: 100vh;
+    display: none;
+}
+
+.navbar ul {
+    overflow: hidden;
+    list-style-type: none;
+    padding-top: 50%;
+    margin: 0;
+}
+
+.navbar li {
+    display: block;
+    margin: 0;
+    padding: 5% 50px;
+    width: 100%;
+}
+
+.navbar li:hover {
+    cursor: pointer;
+}
+
+
+.navbar li a {
+    color: #d3e3e3;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6em;
+    transition: all .5s;
+}
+
+.navbar li:hover {
+    cursor: pointer;
+    background-color: #ce3939;
+    letter-spacing: 10px;
+}
+
+.hamburger {
+    margin: 0;
+    margin-left: 15px;
+    padding: 0;
+    float: left;
+    transition: opacity .3s;
+}
+
+.hamburger:hover {
+    cursor: pointer;
+    opacity: .5;
+}
+
+.hamburger .line {
+    width: 50px;
+    height: 5px;
+    background: rgb(236, 66, 66);
+    margin: 8px auto;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+.hamburger .line:nth-child(1) {
+    background-color: #a77a33;
+}
+
+.hamburger .line:nth-child(2) {
+    background-color: #633200;
+}
+
+.hamburger .line:nth-child(3) {
+    background-color: #a77a33;
+}
+
+.hamburger.isactive .line:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.isactive .line:nth-child(1) {
+    transform: translateY(13px) rotate(45deg);
+}
+
+.hamburger.isactive .line:nth-child(3) {
+    transform: translateY(-13px) rotate(-45deg);
+}
+
+.navbar {
+    transition: all 2s ease-in-out;
+}
+
+.navbar.active {
+    display: block;
+    animation: fade .5s;
+}
+
+@keyframes fade {
+    from {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hamburger {
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 1360px) {
+
+    .h1 h1 {
+        font-size: 3em;
+        left: 35%;
+    }
+
+    .navbar {
+        width: 30%;
+    }
+
+    .navbar ul {
+        padding-left: 0%;
+    }
+
+    .navbar li {
+        padding: 3% 0;
+    }
+
+    .navbar li a {
+        font-size: 1.2em;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .hamburger {
+        float: right;
+    }
+
+    .h1 h1 {
+        left: 23%;
+        top: 50%;
+        font-size: 1.4em;
+    }
+
+    .navbar {
+        background-color: #333;
+        width: 100%;
+        height: 45vh;
+        display: none;
+    }
+
+    .navbar ul {
+        overflow: hidden;
+        list-style-type: none;
+        padding-top: 3%;
+        padding-left: 30%;
+        padding-right: 3%;
+        padding-bottom: 3%;
+        margin: 0;
+    }
+
+    .navbar li {
+        display: block;
+        margin: 0;
+        padding: 14px 20px;
+        width: 100%;
+        transition: background-color .5s;
+    }
+
+    .navbar li:hover {
+        cursor: pointer;
+        background-color: #ce3939;
+    }
+
+
+    .navbar li a {
+        color: #d3e3e3;
+        text-decoration: none;
+        padding: 14px 16px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1em;
+        transition: all 1s;
+    }
+
+    .navbar li:hover {
+        cursor: pointer;
+        background-color: #ce3939;
+        letter-spacing: 0px;
+    }
+
+    .menu-hidden {
+        display: none;
+        color: #033a35;
+        font-weight: bold;
+    }
+
+
+}
