@@ -81,16 +81,15 @@ h4 {
 }
 
 .hero {
-    background-image: url('images/coffee-hero-bg.jpg');
+    background-color: #d2e2e2;
     padding-top: 48px;
 }
 
 .intro {
     background-image: url('images/coffee-beans-bg.jpg');
-    margin-top: -300px;
-    z-index: 100;
-    position: relative;
     padding: 4rem 0;
+    margin-top: -300px;
+    position: relative;
 }
 
 .white {
@@ -104,6 +103,23 @@ p {
 .location {
     background-color: #233237;
     color: #f2f2f2;
+}
+
+.hours-days, .hours-times {
+    padding-bottom: 1rem;
+}
+
+.hours {
+    display: flex;
+    padding: 2rem 3rem;
+    justify-content: center;
+}
+
+.hours-days-wrapper {}
+
+.hours-times-wrapper {
+
+    margin-left: 100px;
 }
 
 footer {
@@ -132,7 +148,6 @@ footer {
 
 .experience {
     color: #45230f;
-    padding-left: 20px;
 }
 
 a {
@@ -347,7 +362,7 @@ label {
     top: 40%;
     font-size: 5em;
     color: #633200;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Quantico', sans-serif;
 }
 
 .navbar {
@@ -373,20 +388,25 @@ label {
 
 .navbar li:hover {
     cursor: pointer;
+    background-color: #1c292e;
+}
+
+.active {
+    background-color: #b98757;
 }
 
 
 .navbar li a {
     color: #d3e3e3;
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Quantico', sans-serif;
     font-size: 1.6em;
     transition: all .5s;
 }
 
 .navbar li:hover {
     cursor: pointer;
-    background-color: #ce3939;
+    background-color: none;
     letter-spacing: 10px;
 }
 
@@ -406,7 +426,7 @@ label {
 .hamburger .line {
     width: 50px;
     height: 5px;
-    background: rgb(236, 66, 66);
+    background: none;
     margin: 8px auto;
     transition: all 0.3s ease-in-out;
     border-radius: 5px;
@@ -443,6 +463,8 @@ label {
 .navbar.active {
     display: block;
     animation: fade .5s;
+    background-color: #233237;
+    margin-bottom: -300px;
 }
 
 @keyframes fade {
@@ -457,15 +479,18 @@ label {
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 576px) {
     .hamburger {
         display: none;
     }
 
+    .navbar {
+        background-color: #d2e2e2;
+    }
 }
 
 
-@media screen and (max-width: 1360px) {
+@media screen and (max-width: 1200px) {
 
     .h1 h1 {
         font-size: 3em;
@@ -474,6 +499,7 @@ label {
 
     .navbar {
         width: 30%;
+
     }
 
     .navbar ul {
@@ -490,7 +516,7 @@ label {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
     .hamburger {
         float: right;
     }
@@ -512,7 +538,7 @@ label {
         overflow: hidden;
         list-style-type: none;
         padding-top: 3%;
-        padding-left: 30%;
+        text-align: center;
         padding-right: 3%;
         padding-bottom: 3%;
         margin: 0;
@@ -528,7 +554,7 @@ label {
 
     .navbar li:hover {
         cursor: pointer;
-        background-color: #ce3939;
+        background-color: none;
     }
 
 
@@ -536,14 +562,14 @@ label {
         color: #d3e3e3;
         text-decoration: none;
         padding: 14px 16px;
-        font-family: 'Raleway', sans-serif;
-        font-size: 1em;
+        font-family: 'Quantico', sans-serif;
+        font-size: 24px;
         transition: all 1s;
     }
 
     .navbar li:hover {
         cursor: pointer;
-        background-color: #ce3939;
+        background-color: none;
         letter-spacing: 0px;
     }
 
