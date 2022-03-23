@@ -1,7 +1,22 @@
 @media only screen and (min-width: 650px) {
 
-    
-    
+    .nav-menu-hidden {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        font-weight: bold;
+        background-color: #d2e2e2;
+        font-family: 'Quantico', sans-serif;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .nav-wrapper {
+        background-color: #d2e2e2;
+    }
+
+    .logo {}
+
 
 
 
