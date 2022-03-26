@@ -711,3 +711,63 @@ label {
         gap: 24px;
     }
 }
+
+@media only screen and (min-width: 960px) {
+
+    .container {
+        max-width: 1280px;
+        margin: auto;
+    }
+
+    nav {
+        background-color: #d2e2e2;
+    }
+
+    .location-section {
+        background-color: #233237;
+    }
+
+    .news-section {
+        background-color: #033a35;
+    }
+
+    .intro {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .hero-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .hero-content {
+        max-width: 560px;
+    }
+
+    .nav-wrapper {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .nav-logo-wrap {}
+
+    .menu-hidden {
+        display: flex;
+        width: 100%;
+    }
+
+    .nav-menu-hidden {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .location-wrapper {}
+
+    .hours-wrapper {}
+}
