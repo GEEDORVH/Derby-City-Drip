@@ -473,6 +473,15 @@ label {
     margin-bottom: -300px;
 }
 
+.nav-logo-wrap {
+    max-width: 420px;
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+}
+
 @keyframes fade {
     from {
         transform: translateX(-200px);
@@ -769,5 +778,36 @@ label {
 
     .location-wrapper {}
 
-    .hours-wrapper {}
+    .hours-wrapper {
+        padding-left: 80px;
+    }
+
+
+    .locations-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .location {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .menu-items2 {
+        display: inline-block;
+    }
+
+    .column-wrapper {
+        display: flex;
+    }
+
+    .teas-wrapper {
+        display: flex;
+    }
+
+    .pastries-wrapper {
+        display: flex;
+    }
 }
